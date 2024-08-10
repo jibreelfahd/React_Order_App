@@ -1,0 +1,26 @@
+.header--cart {
+  padding: 0.7rem 3rem;
+  background: transparent;
+  border-radius: 3px;
+  border: 1px solid green;
+  color: green;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.header--cart:hover {
+  background: lightblue;
+}
+
+.header--cart .cart {
+  font-size: 3rem;
+  font: inherit;
+}
+.header--cart .badge {
+  margin-left: 1rem;
+  font-weight: bold;
+  background: green;
+  border-radius: 25px;
+  padding: 0.25rem 1rem;
+  color: black;
+}

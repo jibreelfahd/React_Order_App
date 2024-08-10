@@ -1,0 +1,39 @@
+.heading {
+  text-align: center;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.product--items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.pricing {
+  background: #333;
+  color: #fff;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  font-size: 1.5rem;
+}
+
+.actions {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.actions button {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  color: lightblue;
+  cursor: pointer;
+  font: inherit;
+}
+
+.actions button:hover {
+  background: gray;
+}
