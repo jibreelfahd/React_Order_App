@@ -2,14 +2,14 @@
   padding: 0.7rem 3rem;
   background: transparent;
   border-radius: 3px;
-  border: 1px solid green;
-  color: green;
+  border: 1px solid #1ad1b9;
+  color: #1ad1b9;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .header--cart:hover {
-  background: lightblue;
+  background: #fff;
 }
 
 .header--cart .cart {
@@ -19,8 +19,8 @@
 .header--cart .badge {
   margin-left: 1rem;
   font-weight: bold;
-  background: green;
+  background: #1ad1b9;
   border-radius: 25px;
   padding: 0.25rem 1rem;
-  color: black;
+  color: #1d1d1d;
 }

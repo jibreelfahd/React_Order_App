@@ -12,7 +12,7 @@
 }
 
 .pricing {
-  background: #333;
+  background: #3a3a3a;
   color: #fff;
   padding: 0.25rem 1rem;
   border-radius: 25px;
@@ -27,13 +27,16 @@
 .actions button {
   padding: 0.5rem 1rem;
   background: transparent;
-  border: 1px solid lightblue;
+  border: 1px solid #1a8ed1;
   border-radius: 5px;
-  color: lightblue;
+  color: #1a8ed1;
   cursor: pointer;
   font: inherit;
 }
 
-.actions button:hover {
-  background: gray;
+.actions button:hover,
+.actions button:active {
+  background-color: #1ac5d1;
+  border-color: #1ac5d1;
+  color: white;
 }

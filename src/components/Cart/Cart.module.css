@@ -1,10 +1,11 @@
 .cart {
   width: 35%;
-  margin: 1.5rem auto;
+  margin: 10rem auto;
   padding: 2rem 1rem;
-  background: rgb(45, 45, 45);
+  background: #313131;
   color: #fff;
   border-radius: 8px;
+  animation: slide-down 600ms ease-out forwards;
 }
 
 .cart h2 {
@@ -12,7 +13,7 @@
 }
 
 .cart .cart--description {
-  background-color: #3e3e3e;
+  background-color: #575757;
   padding: 1.5rem 1rem;
 }
 
@@ -39,6 +40,16 @@
 }
 
 .cart--actions button:hover {
-  background: #333;
-  border: 1px solid lightblue;
+  background: #4b4b4b;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
