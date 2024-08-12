@@ -12,10 +12,6 @@
   background: #fff;
 }
 
-.header--cart .cart {
-  font-size: 3rem;
-  font: inherit;
-}
 .header--cart .badge {
   margin-left: 1rem;
   font-weight: bold;
